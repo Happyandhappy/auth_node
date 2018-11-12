@@ -1,0 +1,29 @@
+{
+  "name": "node_authenticate",
+  "version": "1.0.0",
+  "description": "Auth using passport",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run":"node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "*",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "nodemon": "^1.18.6",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  }
+}
